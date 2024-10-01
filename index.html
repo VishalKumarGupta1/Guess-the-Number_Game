@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Guess The Number</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div id="reportmain">
+        <p id="report"></p>
+        <div id="divreport"></div>
+    </div>
+    <section>
+        <h1>Guess The Number</h1>
+        <p class="description">Try and Guess Random Number Between 0 to 100.
+            You have 10 Attempts To Guess The Right Number</p>
+        <input class="input" type="number" placeholder="Enter Your Guess">
+        <button class="submitbtn">Submit Guess</button>
+        <div class="showprevious">
+            <p>Previous Guess</p>
+            <p class="PreviousGuess"></p>
+            <p>Guess Remaining</p>
+            <p class="GuessRemaining"></p>
+        </div>
+        <p class="result"></p>
+    </section>
+
+    <button id="reset" onclick="resetgame()">Reset</button>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
